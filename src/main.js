@@ -56,10 +56,10 @@ async function handleSearch(event) {
       showLoadMoreButton();
     } else {
       iziToast.info({
-         title: 'End of results',
+        title: 'End of results',
         message: "We're sorry, but you've reached the end of search results.",
         position: 'topRight',
-      })ж
+      });
     }
   } catch (error) {
     iziToast.error({
